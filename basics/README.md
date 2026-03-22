@@ -1,2 +1,2 @@
-Create a script removes  file 
+Create a script removes  my first directory 
  in the current  directory
