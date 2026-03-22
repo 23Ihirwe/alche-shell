@@ -1,2 +1,2 @@
-Create a script that move file 
- in the  directory
+Create a script removes  file 
+ in the current  directory
