@@ -1,1 +1,1 @@
-A script to display absolute path of the current working directory 
+A script to change the home directory 
