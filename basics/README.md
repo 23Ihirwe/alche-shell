@@ -1,2 +1,2 @@
-Create a script that creates a directory named myfirstdirectory
- in the tmp directory
+Create a script that move file 
+ in the  directory
