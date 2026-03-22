@@ -1,2 +1,2 @@
-script to inspect  files and list what is inside 
+script to create a link 
  in the  directory
