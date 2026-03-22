@@ -1,2 +1,2 @@
-A script to display current directory content with user Id numericaly
-And it will be in long way format 
+Create a script that creates a directory named myfirstdirectory
+ in the tmp directory
