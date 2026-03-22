@@ -1,2 +1,2 @@
-script to delet all files in current directory with end of ~.
- in the  directory
+script to create new directories in
+ in the working  directory
