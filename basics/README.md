@@ -1,2 +1,2 @@
-script to create a link 
+script tolist all the html file 
  in the  directory
