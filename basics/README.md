@@ -1,2 +1,2 @@
-script to move files beginning with upper case  to the directory tmp
+script to delet all files in current directory with end of ~.
  in the  directory
