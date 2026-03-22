@@ -1,1 +1,1 @@
-A script to change the home directory 
+A script to list content of directory 
