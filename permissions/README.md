@@ -1,1 +1,1 @@
-script to display current user group is in 
+script that changes the owner of the file hello to the user betty. 
