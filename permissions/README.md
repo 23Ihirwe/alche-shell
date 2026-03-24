@@ -1,1 +1,1 @@
-script to display user name of user
+script to display current user group is in 
