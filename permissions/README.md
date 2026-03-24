@@ -1,1 +1,1 @@
-script to create empty reade.md file
+script to display user name of user
