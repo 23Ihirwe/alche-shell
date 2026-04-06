@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# This script displays hours 0-12 and minutes 1-59 using while loops
+
+hour=0
+while [ "$hour" -le 12 ]
+do
+    minute=1
+    while [ "$minute" -le 59 ]
+    do
+        echo "$hour" "$minute"
+        minute=$((minute + 1))
+    done
+    hour=$((hour + 1))
+done
