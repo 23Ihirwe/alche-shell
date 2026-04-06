@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Iterates through files and displays the part of the name after the first dash
+for file in *; do
+    [[ "$file" == .* ]] && continue
+    if [ -e "$file" ]; then
+        echo "${file#*-}"
+    fi
+done
