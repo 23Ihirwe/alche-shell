@@ -1,0 +1,8 @@
+#!/bin/bash
+
+my_function() {
+    local BEST="School"
+    echo $BEST
+}
+
+my_function
