@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script filters the process tree to display lines containing "bash".
+# shellcheck disable=SC2009
+ps auxf | grep bash
