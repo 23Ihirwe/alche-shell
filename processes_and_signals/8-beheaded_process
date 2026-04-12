@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script sends the SIGKILL signal to forcefully behead 7-highlander.
+pkill -9 -f 7-highlandert 
