@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# This script prints a message indefinitely but catches SIGTERM to say it's invincible.
+
+# Trap SIGTERM and execute the echo command
+trap "echo 'I am invincible!!!'" SIGTERM
+
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
