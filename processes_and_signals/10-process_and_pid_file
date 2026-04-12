@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# This script manages a PID file and responds differently to SIGTERM, SIGINT, and SIGQUIT.
+
+# Create the PID file
+echo "$$" > /var/run/myscript.pid
+
+# Trap SIGTERM: Display message, delete file, and exit
+trap "echo 'I hate the kill command'; rm /var/run/myscript.pid; exit" SIGTERM
+
+# Trap SIGINT: Display message only
+trap "echo 'Y U no love me?!'" SIGINT
+
+# Trap SIGQUIT: Delete file and exit
+trap "rm /var/run/myscript.pid; exit" SIGQUIT
+
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
